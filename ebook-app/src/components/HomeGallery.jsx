@@ -27,15 +27,16 @@ function HomeGallery(props) {
   }, [price]);
 
   function returnEqual(searchResults, priceResults) {
-    if (searchResults.length < priceResults.length) {
-      return searchResults.filter((element) => {
-        return priceResults.find((ele) => ele == element);
-      });
-    } else {
-      return priceResults.filter((element) => {
-        return searchResults.find((ele) => ele == element);
-      });
-    }
+    // if (searchResults.length < priceResults.length) {
+    return searchResults.filter((element) => {
+      return priceResults.find((ele) => ele == element);
+    });
+    //   });
+    // } else {
+    //   return priceResults.filter((element) => {
+    //     return searchResults.find((ele) => ele == element);
+    //   });
+    // }
   }
 
   return (

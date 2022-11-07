@@ -9,7 +9,7 @@ function Card({ results }) {
         {results.map((cardinfo, i) => (
           <div
             key={i}
-            className="my-5 bg-white dark:bg-[#18191c]  shadow-xl hover:shadow-purple-300 to-blue-500-900 duration-200 rounded-xl"
+            className="my-5 bg-white dark:bg-[#18191c]  shadow-xl hover:shadow-purple-200 to-blue-500-900 duration-200 rounded-xl"
           >
             <div className="p-4">
               <h5 className="text-primary dark:text-white font-medium text-sm">
