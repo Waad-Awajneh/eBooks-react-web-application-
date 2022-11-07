@@ -24,7 +24,7 @@ class Header extends Component {
               </nav>
             </div>
           </div>
-          <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h1 className="text-3xl m-5 font-bold tracking-tight text-gray-900 sm:text-4xl">
             Books
           </h1>
         </div>
